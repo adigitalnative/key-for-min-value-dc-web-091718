@@ -8,5 +8,12 @@ def key_for_min_value(name_hash)
     {name: key, value: value}
   end
   
-  raise values.inspect
+  values.each do |item|
+    if item[:value] < min_value[:value}]
+      min_value[:value] = item[:value]
+      min_value[:name] = item[:name]
+    end
+  end
+  
+  min_value[:name]
 end
