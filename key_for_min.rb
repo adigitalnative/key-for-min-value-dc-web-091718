@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   end
   
   values.each do |item|
-    if item[:value] < min_value[:value}]
+    if item[:value] < min_value[:value]
       min_value[:value] = item[:value]
       min_value[:name] = item[:name]
     end
